@@ -2,4 +2,5 @@ before_compile:
   - n 16.15.0
   
 before_build:
-  - yarn sst build --stage dev --verbose; cat .build/sst-debug.log
+  - echo hi
+  #- yarn sst build --stage dev --verbose; cat .build/sst-debug.log
