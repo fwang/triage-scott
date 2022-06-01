@@ -4,4 +4,4 @@ before_compile:
 before_build:
   - echo hi
   #- yarn sst build --stage dev --verbose; cat .build/sst-debug.log
-  - /usr/local/bin/node /tmp/seed/source/node_modules/aws-cdk/bin/cdk synth --no-version-reporting --app "node .build/run.mjs" --output .build/cdk.out --quiet --no-color --verbose
+  #- /usr/local/bin/node /tmp/seed/source/node_modules/aws-cdk/bin/cdk synth --no-version-reporting --app "node .build/run.mjs" --output .build/cdk.out --quiet --no-color --verbose
