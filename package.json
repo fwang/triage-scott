@@ -12,8 +12,8 @@
     "test": "vitest run"
   },
   "devDependencies": {
-    "@serverless-stack/cli": "0.0.0-20220601220616",
-    "@serverless-stack/resources": "0.0.0-20220601220616",
+    "@serverless-stack/cli": "0.0.0-20220602020354",
+    "@serverless-stack/resources": "0.0.0-20220602020354",
     "typescript": "^4.7.2",
     "@tsconfig/node16": "^1.0.2",
     "vitest": "^0.13.0"
