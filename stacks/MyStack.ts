@@ -12,16 +12,16 @@ export function MyStack({ stack }: StackContext) {
 
   // Create a HTTP API
   const api = new Api(stack, "Api", {
-    defaults: {
-      function: {
-        environment: {
-          DATABASE,
-          CLUSTER_ARN: cluster.clusterArn,
-          SECRET_ARN: cluster.secretArn,
-        },
-        permissions: [cluster],
-      },
-    },
+//    defaults: {
+//      function: {
+//        environment: {
+//          DATABASE,
+//          CLUSTER_ARN: cluster.clusterArn,
+//          SECRET_ARN: cluster.secretArn,
+//        },
+//        permissions: [cluster],
+//      },
+//    },
     routes: {
       "POST /": "functions/lambda.handler",
     },
